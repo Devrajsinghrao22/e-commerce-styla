@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    
+    <title>Document</title>
+
+</head>
+<body class="h-full w-full bg-white">
+    <div class="bg-black w-full p-5 flex items-center justify-center text-white text-str">
+        <div class="text-5xl flex tracking-widest" id="own">
+            STYLA
+        </div>
+        <!--<img src="https://www.freeiconspng.com/thumbs/cart-icon/basket-cart-icon-27.png" class="bg-white h-10 w-10">-->
+        
+        <!--<img src="./images/cart2.jpg" class="bg-white h-10 w-10">-->
+        
+    </div>
+    <div class="flex gap-6 lg:text-2xl sm:text-sm lg:gap-24 sm:gap-12 px-7 justify-center items-center bg-gray-200">
+        <a><h4>WOMEN</h4></a>
+        <a><h4>MEN</h4></a>
+        <a><h4>GIRLS</h4></a>
+        <a><h4>BOYS</h4></a>
+        <a><h4>KIDS</h4></a>
+        <div class="flex items-center">
+            <input id="inp" type="text" class="placeholder:search border-2 border-gray-500 rounded-lg h-6 text-sm text-center" onkeyup="search()">
+            <button onclick="search()"><img src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png" alt="search" class="h-8 w-8"></button>
+        </div>
+    </div>
+    
+    <div id="search" class="flex justify-center">
+        
+    </div>
+
+    <div class="flex w-full">
+        <div class="w-full">
+            <img src="https://img.freepik.com/free-vector/fashion-sale-with-discount-template_23-2148936503.jpg" class="w-full h-96">
+        </div>
+        <div class="w-full">
+            <img src="https://img.freepik.com/free-psd/fashion-sale-banner-template_23-2148939458.jpg" class="w-full h-96 " >
+        </div>
+    </div>
+    
+    <div id="shop" class="grid 2xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grip-cols-1 gap-2 m-5 ">
+    
+    </div>
+    <div id="shop2" class="grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-4 justify-center w-7/12 2xl:ml-80  lg:ml-72 md:ml-56 sm:ml-40 ml-28 ">
+
+    </div>
+    <div class="h-20  w-full bg-slate-900 mt-8 ">
+        
+    </div>
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
